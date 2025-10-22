@@ -31,7 +31,7 @@ body{font-family: var(--main-font); font-size: 1.6rem; line-height: 1.5; color: 
 #header .util .btn_store{padding: 10px 30px; background: var(--main-color); border-radius: 100px;}
 
 @media (max-width: 1200px){
-  #header h1{background: url(../images/common/logo_w.png) no-repeat left center/70%;}
+  #header h1 a{background: url(../images/common/logo_w.png) no-repeat left center/70%;}
   #header .gnb{display: none;}
   #header .util .btn_sitemap{background: url(../images/common/ham_w.png) no-repeat right center;}
   #header .util .btn_store{display: none;}
@@ -83,4 +83,5 @@ body{font-family: var(--main-font); font-size: 1.6rem; line-height: 1.5; color: 
   #footer{padding: 50px 0;}
   #footer .footer_cs{position: static; text-align: left;}
   #footer .footer_time{position: static; text-align: left;}
+
 }

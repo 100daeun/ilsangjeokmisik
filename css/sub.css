@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+/* container */
+/* barnd_01.html */
+.bg_brand{background: url(../images/sub/bg_sub1.jpg) no-repeat center/cover;}
+.brand_visual{text-align: center; color: #fff; padding: 300px 0 200px;}
+.brand_visual h2{font-size: 7.5rem; font-family: var(--sub-font); font-weight: 400;}
+.brand_visual p{font-size: 2rem;}
+.brand_visual p::before{content: ""; display: block; width: 1px; height: 30px; background: #fff; margin: 0 auto; margin-bottom: 15px;}
+
+@media (max-width: 1200px){
+  .brand_visual{padding: 250px 0 150px;}
+  .brand_visual h2{font-size: 6rem;}
+}
+
+@media (max-width: 700px){
+  .brand_visual{padding: 200px 0 150px;}
+  .brand_visual h2{font-size: 4rem;}
+  .brand_visual p::before{display: none;}
+  .brand_visual p{font-size: 1.6rem; margin-top: 20px;}
+}
